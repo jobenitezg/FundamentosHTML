@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewporr" content="width=device-width, user-scalable-=no">
+    <meta name="author" content="J Omar Benitez Gomez">
+    <title>Hoja de Vida</title>
+  </head>
+  <body>
+    <header>
+      <img src="images/logojomar.svg" alt="Logo" width="280" height="160">
+        <h1>HOJA DE VIDA</h1>
+        <h2>Jorge Omar Benitez Gomez</h2>
+        <h3>Fecha de Nacimiento: <em>Popayán, agosto 9 de 1969</em> </h3>
+      </header>
+    <nav>
+      <p>
+        <a href="index.html">Inicio</a>  |  <a href="educacion.html">Educación</a>  |  <a href="experiencia.html">Experiencia</a>
+      </p>
+    </nav>
+    <h2>Educación</h2>
+    <table border="1" cellpadding="10" cellspacing="0" >
+      <tr>
+        <thead>
+          <th>Año</th>
+          <th>Institución</th>
+          <th>Lugar</th>
+          <th>Titulo</th>
+          <th>¿Culminó?</th>
+        </thead>
+      </tr>
+      <tbody>
+        <tr>
+          <td>1987</td>
+          <td>Normal Nacional de Varones Jose Eusebio Caro</td>
+          <td>Popayán</td>
+          <td>Maestro Bachiller</td>
+          <td>SI</td>
+        </tr>
+        <tr>
+          <td>1992</td>
+          <td>Coorporación de Carreras Intermedias del Cauca</td>
+          <td>Popayán</td>
+          <td>Técnico en Sistemas</td>
+          <td>SI</td>
+        </tr>
+        <tr>
+          <td>2002</td>
+          <td>Universidad INCCA de Colombia</td>
+          <td>Popayán</td>
+          <td>Ingeniero de Sistemas</td>
+          <td>SI</td>
+        </tr>
+        <tr>
+          <td>2008</td>
+          <td>Universidad del Cauca</td>
+          <td>Popayán</td>
+          <td>Especialista en Telemática</td>
+          <td>SI</td>
+        </tr>
+      </tbody>
+    </table>
+    <h2>Agregar Estudios</h2>
+    <form action="educacion.html">
+      <p>
+         <strong><label for="age">Año</label></strong>
+         <select name="age" required>
+           <option value="1">1998</option>
+           <option value="2">1999</option>
+           <option value="3">2000</option>
+           <option value="4">2001</option>
+           <option value="5">2002</option>
+           <option value="6">2003</option>
+           <option value="7">2004</option>
+           <option value="8">2005</option>
+           <option value="9">2006</option>
+           <option value="10">2007</option>
+           <option value="11">2008</option>
+           <option value="12">2009</option>
+           <option value="12">2010</option>
+           <option value="13">2011</option>
+           <option value="13">2012</option>
+           <option value="13">2013</option>
+           <option value="13">2014</option>
+           <option value="13">2015</option>
+           <option value="13">2016</option>
+           <option value="13">2017</option>
+           <option value="13">2018</option>
+           <option value="13">2019</option>
+        </select>
+        <br>
+        <strong>
+          <label for="institution">Institución</label>
+        </strong>
+        <input type="text" name="institution" placeholder="Nombre de la Institución" cols="60" required >
+        <br>
+        <strong>
+          <label for="place">Lugar</label>
+        </strong>
+        <textarea name="place" rows="2" cols="80" required maxlength="120"></textarea><br><br>
+        <input type="submit" value="Enviar">
+      </p>
+    </form>
+    <footer>
+      <p><strong>CONTACTO</strong><br>
+      Jorge Omar Benitez Gomez<br>
+      Ingeniero de Sistemas <br>
+      Especialista en Telemática <br>
+      Celular 321 7518864 <br>
+
+        <img src="images/gmail.jpg" alt="gmail.jpg" width="30">
+        <a href="mailto:jorgeomarbenitezgomez@gmail.com?subject=Hoja_de_Vida">jorgeomarbenitezgomez@gmail.com</a><br>
+        <img src="images/facebook.png" alt="facebbok.png" width="30">
+        <a href="https://www.facebook.com/jobenitezg">facebook.com/jobenitezg</a> <br>
+        <img src="images/whatsapp.jpg" alt="whatsapp.jpg" width="30">321 7518864
+      </p>
+
+    </footer>
+  </body>
+</html>
